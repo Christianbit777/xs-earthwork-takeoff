@@ -194,6 +194,22 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Generated PDFs
+out_*.pdf
+
+# Local sample data
+sample_data/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+
 # Cursor
 #  Cursor is an AI-powered code editor. `.cursorignore` specifies files/directories to
 #  exclude from AI features like autocomplete and code analysis. Recommended for sensitive data
